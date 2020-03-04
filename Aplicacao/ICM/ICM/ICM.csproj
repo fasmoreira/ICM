@@ -153,6 +153,7 @@
     <Content Include="css\skins\skin-sass.css" />
     <Content Include="css\skins\skin-seo.css" />
     <Content Include="css\skins\skin-wedding.css" />
+    <Content Include="css\style.css" />
     <Content Include="css\theme-blog.css" />
     <Content Include="css\theme-elements.css" />
     <Content Include="css\theme-shop.css" />
@@ -2476,6 +2477,7 @@
     <Content Include="js\examples\examples.instafeed.js" />
     <Content Include="js\examples\examples.lightboxes.js" />
     <Content Include="js\examples\examples.portfolio.js" />
+    <Content Include="js\script.js" />
     <Content Include="js\theme.init.js" />
     <Content Include="js\theme.js" />
     <Content Include="js\views\view.contact.js" />

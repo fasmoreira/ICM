@@ -39,6 +39,9 @@
     <link rel="stylesheet" href="css/theme-blog.css">
     <link rel="stylesheet" href="css/theme-shop.css">
 
+
+    <link rel="stylesheet" href="css/style.css">
+
     <!-- Demo CSS -->
     <link rel="stylesheet" href="css/demos/demo-landing.css">
 
@@ -1026,7 +1029,7 @@
 					</div>
 				</div>
 			</footer>
-            <asp:ContentPlaceHolder ID="footerJS" runat="server"></asp:ContentPlaceHolder>
+            
             <!-- Vendor -->
             <script src="vendor/jquery/jquery.min.js"></script>
             <script src="vendor/jquery.appear/jquery.appear.min.js"></script>
@@ -1054,9 +1057,10 @@
 
             <!-- Theme Custom -->
             <script src="js/custom.js"></script>
+            <script src="js/script.js"></script>
 
             <!-- Theme Initialization Files -->
             <script src="js/theme.init.js"></script>
-            
+            <asp:ContentPlaceHolder ID="footerJS" runat="server"></asp:ContentPlaceHolder>
     </body>
 </html>

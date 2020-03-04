@@ -1,0 +1,336 @@
+
+/* --- Global --- */
+	@font-face{
+		font-family: Ubuntu;
+		src: url('../fonts/Ubuntu-Regular.ttf');
+	}
+	body{
+		font-family: Ubuntu, sans-serif;
+		background-color: var(--bg-color-blue);
+		/*background: rgb(21,54,197);
+		background: linear-gradient(153deg, rgba(21,54,197,1) 0%, rgba(114,245,255,1) 86%) no-repeat;*/
+	}
+	a:hover{
+		text-decoration: none;
+	}
+	:root{
+		--new-primary:#46d0df;
+		--new-secondary:#838ac5;
+		--new-blue:#183593;
+	}
+	.text-color-primary{
+		color: var(--new-primary)
+	}
+	.text-color-secondary{
+		color: var(--new-secondary)
+	}
+	.text-color-blue{
+		color: var(--new-blue);
+	}
+	.bg-color-primary{
+		background-color: var(--new-primary);
+	}
+	.bg-color-secondary{
+		background-color: var(--new-secondary);
+	}
+	.bg-color-blue{
+		background-color: var(--new-blue);	
+	}
+	.full-page{
+		height: 100vh;
+	}
+	.fit-cover{
+		width: 100%;
+		object-fit: cover;
+	}
+	.rounded2{
+		border-radius: 8px!important;
+	}
+	.swal2-title{
+		font-size: 20px!important;
+	}
+	.pb-lg{
+		padding-bottom: 80px!important;
+	}
+
+/* --- Navbar --- */
+	/* --- menu mobile --- */
+	.nav-justified .nav-item{
+		border: none;
+		border-radius: 0;
+		border-top: 2px solid transparent;
+	}
+	.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+		background-color: transparent;
+		border: none;
+		border-top: 2px solid #fff;
+		border-radius: 0;
+	}
+	nav.fixed-bottom img{
+		padding: 5px 0!important;
+	}
+
+	/* --- menu desktop --- */
+	#desktop .navbar .dropdown-menu{
+		left: -50px;
+	}
+	#desktop .name-page{
+		background: url(../img/bg-banner-desktop.jpg) no-repeat top center;
+		background-size: cover;
+	}
+	.breadcrumb-item+.breadcrumb-item::before {
+    	color: #fff;
+	}
+
+/* --- Login --- */
+	body#login{
+		background: url(../img/bg-banner-login.jpg) no-repeat center center;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	#login .rounded-login{
+		border-radius: 25px;
+	}
+	.img-boehringer{
+		margin-top: 80px;
+	}
+
+/* --- Home - Card de Total de pontos --- */
+	#desktop .bg-banner-home{
+		background: url(../img/bg-banner-desktop.jpg) no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: 50% 100%;
+		height: 500px;
+	}
+	#home-controles-carousel .carousel-control-prev{
+		left: -6px;
+	}
+	#home-controles-carousel .carousel-control-next{
+		right: -6px;
+	}
+	#home-controles-carousel .carousel-control-prev,
+	#home-controles-carousel .carousel-control-next{
+		top: 5px;
+		bottom: initial;
+	}
+	#home-controles-carousel .fa-angle-double-left,
+	#home-controles-carousel .fa-angle-double-right{
+		color: #000;
+		font-size: 25px;
+	}
+	#controls.carousel .fa-2x{
+		font-size: 28px;
+	}
+
+/* --- Atividades --- */
+	.margin-x-md{
+		margin-left: 22%;
+		margin-right: 22%;
+	}
+	#controles-carousel .carousel-control-prev{
+		left: 16px;
+	}
+	#controles-carousel .carousel-control-next{
+		right: 16px;
+	}
+	#controles-carousel .carousel-control-prev,
+	#controles-carousel .carousel-control-next{
+		top: 5px;
+		bottom: initial;
+	}
+	#controles-carousel .fa-angle-double-left,
+	#controles-carousel .fa-angle-double-right{
+		color: #000;
+		font-size: 25px;
+	}
+	#controls.carousel .fa-2x{
+		font-size: 28px;
+	}
+
+/* --- Ranking --- */
+	#page_ranking #controls-02 .carousel-control-prev,
+	#page_ranking #controls-02 .carousel-control-next {
+	    top: -3px!important;
+	}
+
+/* --- Resgate --- */
+	#resgate-premios .card{
+		width: 23%;
+		float: left;
+	}
+	#resgate-premios .card img{
+		height: 150px;
+	}
+
+	#desktop .bg-banner{
+		background-position: 50% -120px;
+	}
+
+	.total-count{
+		/*padding: 2px 6px;*/
+		/*background-color: var(--danger);*/
+		border-radius: 50%;
+		font-size: 20px;
+	}
+	#icon-carrinho{
+		position: fixed;
+		bottom: 35px;
+		right: 35px;
+		padding: 20px 10px;
+		border-radius: 50%;
+
+		/*position: fixed;
+		bottom: 80px;
+		right: 10px;
+		padding: 20px 10px;
+		border-radius: 50%;*/
+	}
+	#icon-carrinho i{
+		font-size: 30px;
+	}
+
+@media screen and (max-width: 1024px) {
+	#desktop .bg-banner-home{
+		/*background: url(../img/bg-banner-desktop.jpg) no-repeat;*/
+		/*background-size: cover;*/
+		background-attachment: initial;
+		/*background-position: 50% 100%;*/
+		/*height: 500px;*/
+	}
+}
+
+@media screen and (max-width: 767px){
+	/* --- Login --- */
+	body#login{
+		background: url(../img/bg-banner-mobile.jpg) no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	/* --- Pages --- */
+	body .bg-image{
+		background: url(../img/bg-banner-mobile.jpg) no-repeat;
+		background-size: cover;
+		/*background-attachment: fixed;*/
+		height: 135vh!important;
+		max-height: 1000px;
+	}
+	body .header{
+		background: url(../img/bg-banner-mobile.jpg) no-repeat;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.fixed-bottom .fas{
+	    font-size: 30px;
+	}
+
+	/* --- Navbar --- */
+	.navbar .navbar-collapse{
+		position: absolute;
+		right: 0;
+		top: 50px;
+		margin-right: 2px;
+		z-index: 2;
+	}
+
+	/* --- Panel Right --- */
+	#panelRight .modal-dialog.modal-dialog-slideout{width: 60%;}
+	#panelRight .modal-dialog-slideout{
+		margin: 10px 15px 0 auto;
+	}
+	.modal.fade .modal-dialog.modal-dialog-slideout{-webkit-transform: translate(100%,0);transform: translate(100%,0);}
+	.modal.fade.show .modal-dialog.modal-dialog-slideout{-webkit-transform: translate(0%,0);transform: translate(0,0);flex-flow: column;}
+
+	/* --- Cards - primary card --- */
+	:root {
+		--gutter: 20px;
+	}
+	.card-carousel > * {
+		grid-column: 2 / -2;
+	}
+	.card-carousel > .full {
+		grid-column: 1 / -1;
+	}
+	.hs{
+		display: grid;
+		grid-gap: 15px;
+		grid-template-columns: 0px;
+		grid-template-rows: minmax(150px, 1fr);
+		grid-auto-flow: column;
+		grid-auto-columns: calc(85% - var(--gutter) * 1); /*width of cards carousel*/
+		overflow-x: scroll;
+		scroll-snap-type: x proximity;
+	}
+	.hs > li, .primary-card {
+	  	scroll-snap-align: center;
+	}
+	.hs:before,.hs:after{
+		content: '';
+		width: 10px;
+	}
+	.no-scrollbar::-webkit-scrollbar {
+		display: none;
+	}
+	.card-carousel .primary-card p{
+		position: relative!important;
+	}
+	.card-carousel .primary-card{
+	    height: 300px;
+	}
+
+	/* --- Cards - others cards ---- */
+	#button-menu-mobile .card{
+		width: 100%;
+	    height: 130px;
+	}
+	#button-menu-mobile i{
+		text-shadow: 0px 3px 2px #ccc;
+	}	
+	#button-menu-mobile .card i{
+		position: absolute;
+		left: 0;
+		margin-left: 10px;
+	}
+	#button-menu-mobile .card p{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		margin-right: 10px;
+	}
+
+	/* --- atividades --- */
+	.margin-x-md{
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+
+	/* --- resgate de premios --- */
+	#resgate-premios.container{
+		padding-left: 0px;
+		padding-right: 0px;
+		margin-left: 0px;
+		margin-right: 0px;
+	}
+	#resgate-premios .card{
+		width: 45%;
+		float: left;
+	}
+	#resgate-premios .card img{
+		height: 100px;
+	}
+
+	#icon-carrinho{
+		bottom: 80px;
+		right: 10px;
+	}
+}
+
+@media screen and (max-width: 390px){
+	#mobile #page_home p.h5{
+		font-size: 18px;
+	}
+	#mobile #page_home p.h1{
+		font-size: 30px;
+	}
+}
+
