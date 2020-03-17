@@ -84,3 +84,43 @@ C:\Users\Felippe Augusto\Documents\GitHub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\IC
 C:\Users\Felippe Augusto\Documents\GitHub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.csproj.CopyComplete
 C:\Users\Felippe Augusto\Documents\GitHub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.dll
 C:\Users\Felippe Augusto\Documents\GitHub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.pdb
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\ICM.dll.config
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\ICM.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\ICM.pdb
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\csc.exe
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\csc.exe.config
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\csc.rsp
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\csi.exe
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\csi.rsp
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.AppContext.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\vbc.exe
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\vbc.exe.config
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\vbc.rsp
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\VBCSCompiler.exe
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\Newtonsoft.Json.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\MollaLibrary.pdb
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\MollaLibrary.xml
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\MollaLibrary.dll.config
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.csprojAssemblyReference.cache
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.csproj.CoreCompileInputs.cache
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.csproj.CopyComplete
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.dll
+C:\Users\Tesouraria\Documents\MollaGithub\ICM_OFF\Aplicacao\ICM\ICM\obj\Debug\ICM.pdb

@@ -74,6 +74,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="areaEstudante.aspx" />
     <Content Include="css\custom.css" />
     <Content Include="css\demos\demo-app-landing.css" />
     <Content Include="css\demos\demo-architecture-interior.css" />
@@ -5369,6 +5370,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="areaEstudante.aspx.cs">
+      <DependentUpon>areaEstudante.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="areaEstudante.aspx.designer.cs">
+      <DependentUpon>areaEstudante.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

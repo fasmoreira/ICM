@@ -81,12 +81,25 @@
 										</nav>
 									</div>
 								</div>
-								<div class="header-column justify-content-end">
+                                <!-- Area Logada -->
+                                <div class="header-column justify-content-end d-none" id="area_Logada">
 									<div class="header-row">
 										<nav class="header-nav-top">
 											<ul class="nav nav-pills">
 												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
-													<a href="#" class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Login</a>
+													<a href="#" data-toggle="modal" data-target="#formModal"id="" class="text-light pr-0">Olá, Felippe Moreira <i class="fas fa-pencil-alt"></i> Sair</a>
+												</li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+                                <!-- Area Logada -->
+								<div class="header-column justify-content-end"id="area_Deslogada">
+									<div class="header-row">
+										<nav class="header-nav-top">
+											<ul class="nav nav-pills">
+												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
+													<a href="#" data-toggle="modal" data-target="#formModal"id="" class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Login</a>
 												</li>
 											</ul>
 										</nav>
@@ -106,34 +119,79 @@
 									</div>
 								</div>
 							</div>
-							<div class="header-column justify-content-end">
+                            <!-- MenuLogado -->
+
+                            	<div class="header-column justify-content-end d-none" id="menuLogado">
 								<div class="header-row">
 									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
 										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
 											<nav class="collapse">
 												<ul class="nav nav-pills" id="mainNav">
 													<li>
-														<a class="nav-link active" href="demo-education.html">
+														<a class="nav-link active" href="#">
 															Home
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-about-us.html">
+														<a class="nav-link" href="#">
+															BOLETIM
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															GRADE CURRICULAR
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															EAD
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
+															CREDITOS
+														</a>
+													</li>
+												</ul>
+											</nav>
+										</div>
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+											<i class="fas fa-bars"></i>
+										</button>
+									</div>
+								</div>
+							</div>
+
+                            <!-- MenuLogado -->
+
+							<div class="header-column justify-content-end" id="menuDeslogado">
+								<div class="header-row">
+									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+											<nav class="collapse">
+												<ul class="nav nav-pills" id="mainNav">
+													<li>
+														<a class="nav-link active" href="#">
+															Home
+														</a>
+													</li>
+													<li>
+														<a class="nav-link" href="#">
 															SOBRE O ICM
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-courses.html">
+														<a class="nav-link" href="#">
 															CURSOS
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-blog.html">
+														<a class="nav-link" href="#">
 															NOSSA COMUNIDADE
 														</a>
 													</li>
 													<li>
-														<a class="nav-link" href="demo-education-contact-us.html">
+														<a class="nav-link" href="#">
 															CONTATO
 														</a>
 													</li>
@@ -159,7 +217,175 @@
                 </div>
             </form>
         </div>
+
+        <footer id="footer">
+				<div class="container">
+					<div class="footer-ribbon">
+						<span>Get in Touch</span>
+					</div>
+					<div class="row py-5 my-4">
+						<div class="col-md-6 col-lg-4 mb-5 mb-lg-0">
+							<h5 class="text-3 mb-3">ABOUT THE BLOG</h5>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec eu pulvinar magna semper scelerisque.</p>
+							<p class="mb-0">Praesent venenatis turpis vitae purus semper, eget sagittis velit venenatis ptent taciti sociosqu ad litora...</p>
+							<p class="mb-0"><a href="#" class="btn-flat btn-xs text-color-light p-relative top-5"><strong class="text-2">VIEW MORE</strong><i class="fas fa-angle-right p-relative top-1 pl-2"></i></a></p>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
+							<h5 class="text-3 mb-3">RECENT POSTS</h5>
+							<ul class="list-unstyled mb-0">
+								<li class="media mb-3 pb-1">
+									<article class="d-flex">
+										<a href="#">
+											<img class="mr-3 rounded-circle" src="img/office/our-office-4-square.jpg" alt="" style="max-width: 70px;">
+										</a>
+										<div class="media-body">
+											<a href="#">
+												<h6 class="text-3 text-color-light opacity-8 ls-0 mb-1">Lorem ipsum dolor sit, consectetur adipiscing elit.</h6>
+												<p class="text-2 mb-0">12:53 AM Dec 19th</p>
+											</a>
+										</div>
+									</article>
+								</li>
+								<li class="media">
+									<article class="d-flex">
+										<a href="#">
+											<img class="mr-3 rounded-circle" src="img/office/our-office-5-square.jpg" alt="" style="max-width: 70px;">
+										</a>
+										<div class="media-body">
+											<a href="#">
+												<h6 class="text-3 text-color-light opacity-8 ls-0 mb-1">Lorem ipsum dolor sit, consectetur adipiscing elit.</h6>
+												<p class="text-2 mb-0">12:53 AM Dec 19th</p>
+											</a>
+										</div>
+									</article>
+								</li>
+							</ul>
+						</div>
+						<div class="col-md-6 col-lg-3 mb-5 mb-md-0">
+							<h5 class="text-3 mb-3">RECENT COMMENTS</h5>
+							<ul class="list-unstyled mb-0">
+								<li class="mb-3 pb-1">
+									<a href="#">
+										<p class="text-3 text-color-light opacity-8 mb-1"><i class="fas fa-angle-right text-color-primary"></i><strong class="ml-2">John Doe</strong> commented on <strong class="text-color-primary">lorem ipsum dolor sit amet.</strong></p>
+										<p class="text-2 mb-0">12:55 AM Dec 19th</p>
+									</a>
+								</li>
+								<li>
+									<a href="#">
+										<p class="text-3 text-color-light opacity-8 mb-1"><i class="fas fa-angle-right text-color-primary"></i><strong class="ml-2">John Doe</strong> commented on <strong class="text-color-primary">lorem ipsum dolor sit amet.</strong></p>
+										<p class="text-2 mb-0">12:55 AM Dec 19th</p>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container py-2">
+						<div class="row py-4">
+							<div class="col-lg-1 d-flex align-items-center justify-content-center justify-content-lg-start mb-2 mb-lg-0">
+								<a href="index.html" class="logo pr-0 pr-lg-3">
+									<img alt="Porto Website Template" src="img/logo-footer.png" class="opacity-5" height="33">
+								</a>
+							</div>
+							<div class="col-lg-5 d-flex align-items-center justify-content-center justify-content-lg-start mb-4 mb-lg-0">
+								<p>© Copyright 2019. All Rights Reserved.</p>
+							</div>
+							<div class="col-lg-6 d-flex align-items-center justify-content-center justify-content-lg-end">
+								<nav id="sub-menu">
+									<ul>
+										<li><i class="fas fa-angle-right"></i><a href="page-faq.html" class="ml-1 text-decoration-none"> FAQ's</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="sitemap.html" class="ml-1 text-decoration-none"> Sitemap</a></li>
+										<li><i class="fas fa-angle-right"></i><a href="contact-us.html" class="ml-1 text-decoration-none"> Contact Us</a></li>
+									</ul>
+								</nav>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
     </div>
+    <!-- Modal de login -->
+    <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #b56b35;">
+                    <p class="modal-title" style="color: #ffffff; margin-top: 4px; font-size: 15px;">Acessar sua página</p>
+                    <i class="fa-2x icon-arrow-right-circle icons" style="color: #fff;"></i>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body border-radius-top-0">
+                        <div class="form-group mb-3">
+                            <label>Usuário</label>
+                            <div class="input-group">
+                                <input name="username" id="CPFLogin" data-cnpj="true" data-obrigatorio="true" maxlength="18" type="text" class="form-control form-control-lg" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="form-group mb-3">
+                            <div class="clearfix">
+                                <label class="float-left">Senha</label>
+                                <a href="#" data-toggle="modal" data-target="#EsqueciSenhaModal" class="float-right text-colo-primary">Esqueceu sua senha?</a>
+                            </div>
+                            <div class="input-group">
+                                <input name="senha" id="SENHALogin" data-obrigatorio="true" type="password" class="form-control form-control-lg" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-lock"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="offset-2 col-8 text-right">
+                                <div class="btn btn-xl btn-primary form-control lgn_Login" id="Lgn_login" style="padding: 4px;">Login</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Modal de Login -->
+
+    <!-- Modal de Esqueceu a Senha -->
+      <div class="modal fade" id="EsqueciSenhaModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header" style="background-color: #b56b35;">
+                    <p class="modal-title" style="color: #ffffff; margin-top: 4px; font-size: 15px;">Esqueceu sua Senha?</p>
+                    <i class="fa-2x icon-arrow-right-circle icons" style="color: #fff;"></i>
+                </div>
+                <div class="modal-body">
+                    <div class="card-body border-radius-top-0">
+                        <div class="form-group mb-3">
+                            <label>CPF</label>
+                            <div class="input-group">
+                                <input name="username" id="usernameCNPJ" data-cnpj="true" data-obrigatorio="true" maxlength="18" type="text" class="form-control form-control-lg" />
+                                <span class="input-group-append">
+                                    <span class="input-group-text">
+                                        <i class="fas fa-user"></i>
+                                    </span>
+                                </span>
+                            </div>
+                        </div>
+                       
+                        <div class="row">
+                            <div class="offset-2 col-8 text-right">
+                                <div class="btn btn-xl btn-primary form-control" style="padding: 4px;">Enviar</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Fim Modal de Esqueceu a Senha -->
+
 
     <!-- Vendor -->
     <script src="vendor/jquery/jquery.min.js"></script>
