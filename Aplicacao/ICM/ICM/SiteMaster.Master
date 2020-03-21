@@ -55,170 +55,159 @@
 
     <!-- Head Libs -->
     <script src="vendor/modernizr/modernizr.min.js"></script>
-
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
 </head>
 <body>
-    <div class="body">
-        <header id="header" class="header-transparent header-semi-transparent section-dark " data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 52, 'stickySetTop': '-52px'}">
-				<div class="header-body border-top-0 bg-dark box-shadow-none">
-					<div class="header-top header-top-borders header-top-light-borders">
-						<div class="container h-100">
-							<div class="header-row h-100">
-								<div class="header-column justify-content-start">
-									<div class="header-row">
-										<nav class="header-nav-top">
-											<ul class="nav nav-pills">
-												<li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
-													<span class="ws-nowrap text-light pl-0"><span class="opacity-7">Celular/Whatsapp:</span> <a class="text-light">(011) XXXXX-XXXX</a></span>
-												</li>
-												<li class="nav-item nav-item-borders py-2">
-													<span class="ws-nowrap text-light"><span class="opacity-7">Email:</span> <a class="text-light">icm@gmail.com</a></span>
-												</li>
-												<li class="nav-item nav-item-borders py-2 d-none d-md-inline-flex">
-													<span class="ws-nowrap text-light"><span class="opacity-7">Dias: </span>Ter 19h30 - 22h00 || Sáb 9h30 - 20h00 </span>
-												</li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-                                <!-- Area Logada -->
-                                <div class="header-column justify-content-end d-none" id="area_Logada">
-									<div class="header-row">
-										<nav class="header-nav-top">
-											<ul class="nav nav-pills">
-												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
-													<a href="#" data-toggle="modal" data-target="#formModal"id="" class="text-light pr-0">Olá, Felippe Moreira <i class="fas fa-pencil-alt"></i> Sair</a>
-												</li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-                                <!-- Area Logada -->
-								<div class="header-column justify-content-end"id="area_Deslogada">
-									<div class="header-row">
-										<nav class="header-nav-top">
-											<ul class="nav nav-pills">
-												<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
-													<a href="#" data-toggle="modal" data-target="#formModal"id="" class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Login</a>
-												</li>
-											</ul>
-										</nav>
-									</div>
-								</div>
-							</div>
+    <header id="header" class="header-transparent header-semi-transparent section-dark" data-plugin-options="{'stickyEnabled': true, 'stickyEnableOnBoxed': true, 'stickyEnableOnMobile': true, 'stickyChangeLogo': false, 'stickyStartAt': 52, 'stickySetTop': '-52px'}">
+	        <div class="header-body border-top-0 bg-light box-shadow-1-dark">
+        		<div class="header-top header-top-borders header-top-light-borders"style="background-color:#021468">
+			<div class="container h-100">
+				<div class="header-row h-100">
+					<div class="header-column justify-content-start">
+						<div class="header-row">
+							<nav class="header-nav-top">
+								<ul class="nav nav-pills">
+									<li class="nav-item nav-item-borders py-2 d-none d-sm-inline-flex">
+										<span class="ws-nowrap text-light pl-0"><span class="opacity-7">Celular/Whatsapp:</span> <a class="text-light">(011) XXXXX-XXXX</a></span>
+									</li>
+									<li class="nav-item nav-item-borders py-2">
+										<span class="ws-nowrap text-light"><span class="opacity-7">Email:</span> <a class="text-dar">icm@gmail.com</a></span>
+									</li>
+									<li class="nav-item nav-item-borders py-2 d-none d-md-inline-flex">
+										<span class="ws-nowrap text-light"><span class="opacity-7">Dias: </span>Ter 19h30 - 22h00 || Sáb 9h30 - 20h00 </span>
+									</li>
+								</ul>
+							</nav>
 						</div>
 					</div>
-					<div class="header-container header-container-height-sm container">
+                    <!-- Area Logada -->
+                    <div class="header-column justify-content-end d-none" id="area_Logada">
 						<div class="header-row">
-							<div class="header-column">
-								<div class="header-row">
-									<div class="header-logo">
-										<a href="demo-education.html">
-											<img alt="Porto" width="100" height="48" src="img/demos/education/logo.png">
-										</a>
-									</div>
-								</div>
-							</div>
-                            <!-- MenuLogado -->
-
-                            	<div class="header-column justify-content-end d-none" id="menuLogado">
-								<div class="header-row">
-									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
-											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
-													<li>
-														<a class="nav-link active" href="#">
-															Home
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															BOLETIM
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															GRADE CURRICULAR
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															EAD
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															CREDITOS
-														</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-											<i class="fas fa-bars"></i>
-										</button>
-									</div>
-								</div>
-							</div>
-
-                            <!-- MenuLogado -->
-
-							<div class="header-column justify-content-end" id="menuDeslogado">
-								<div class="header-row">
-									<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
-										<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
-											<nav class="collapse">
-												<ul class="nav nav-pills" id="mainNav">
-													<li>
-														<a class="nav-link active" href="#">
-															Home
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															SOBRE O ICM
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															CURSOS
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															NOSSA COMUNIDADE
-														</a>
-													</li>
-													<li>
-														<a class="nav-link" href="#">
-															CONTATO
-														</a>
-													</li>
-												</ul>
-											</nav>
-										</div>
-										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
-											<i class="fas fa-bars"></i>
-										</button>
-									</div>
-								</div>
-							</div>
+							<nav class="header-nav-top">
+								<ul class="nav nav-pills">
+									<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
+										<a href="index.aspx"  class="text-light pr-0">Olá, Felippe Moreira <i class="fas fa-pencil-alt"></i> Sair</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+					</div>
+                    <!-- Area Logada -->
+					<div class="header-column justify-content-end"id="area_Deslogada">
+						<div class="header-row">
+							<nav class="header-nav-top">
+								<ul class="nav nav-pills">
+									<li class="nav-item nav-item-borders py-2 pr-0 dropdown">
+										<a href="#" data-toggle="modal" data-target="#formModal"id="" class="text-light pr-0"><i class="fas fa-pencil-alt"></i> Login</a>
+									</li>
+								</ul>
+							</nav>
 						</div>
 					</div>
 				</div>
-			</header>
-        <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
-        <div role="main" class="main">
-            <form id="form1" runat="server">
-                <div>
-                    <asp:ContentPlaceHolder ID="Conteudo" runat="server">
-                    </asp:ContentPlaceHolder>
-                </div>
-            </form>
-        </div>
+			</div>
+		</div>
+        		<div class="header-container header-container-height-sm container">
+			<div class="header-row">
+				<div class="header-column">
+					<div class="header-row">
+						<div class="header-logo">
+							<a href="demo-education.html">
+								<img alt="Porto" width="100" height="48" src="img/demos/education/logo.png">
+							</a>
+						</div>
+					</div>
+				</div>
+                <!-- MenuLogado -->
 
-        <footer id="footer">
+                    <div class="header-column justify-content-end d-none" id="menuLogado">
+					<div class="header-row">
+						<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+							<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+								<nav class="collapse">
+									<ul class="nav nav-pills" id="mainNav">
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="Index.aspx">
+												Home
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="Boletim.aspx">
+												BOLETIM
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="GradeCurricular.aspx">
+												GRADE CURRICULAR
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="AULAEAD.aspx">
+												EAD
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="#">
+												CREDITOS
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+								<i class="fas fa-bars"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+
+                <!-- MenuLogado -->
+
+				<div class="header-column justify-content-end" id="menuDeslogado">
+					<div class="header-row">
+						<div class="header-nav header-nav-links header-nav-dropdowns-dark header-nav-light-text order-2 order-lg-1">
+							<div class="header-nav-main header-nav-main-mobile-dark header-nav-main-square header-nav-main-dropdown-no-borders header-nav-main-effect-2 header-nav-main-sub-effect-1">
+								<nav class="collapse">
+									<ul class="nav nav-pills" id="mainNav">
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="Index.aspx">
+												Home
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="Formacao.aspx">
+												FORMAÇÃO
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="#">
+												EVENTOS
+											</a>
+										</li>
+										<li>
+											<a class="nav-link text-color-dark text-color-hover-primary" href="#">
+												CONTATO
+											</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+							<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main nav">
+								<i class="fas fa-bars"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	        </div>
+        </header>
+    <form id="form1" runat="server">
+
+        <asp:ContentPlaceHolder ID="Conteudo" runat="server">
+        </asp:ContentPlaceHolder>
+    </form>
+    <footer id="footer" style="margin-top:10%;">
 				<div class="container">
 					<div class="footer-ribbon">
 						<span>Get in Touch</span>
@@ -304,19 +293,19 @@
 					</div>
 				</div>
 			</footer>
-    </div>
+
     <!-- Modal de login -->
     <div class="modal fade" id="formModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
-                <div class="modal-header" style="background-color: #b56b35;">
+                <div class="modal-header" style="background-color: #021468;">
                     <p class="modal-title" style="color: #ffffff; margin-top: 4px; font-size: 15px;">Acessar sua página</p>
                     <i class="fa-2x icon-arrow-right-circle icons" style="color: #fff;"></i>
                 </div>
                 <div class="modal-body">
                     <div class="card-body border-radius-top-0">
                         <div class="form-group mb-3">
-                            <label>Usuário</label>
+                            <label>Matricula</label>
                             <div class="input-group">
                                 <input name="username" id="CPFLogin" data-cnpj="true" data-obrigatorio="true" maxlength="18" type="text" class="form-control form-control-lg" />
                                 <span class="input-group-append">
@@ -353,7 +342,7 @@
     <!-- Fim Modal de Login -->
 
     <!-- Modal de Esqueceu a Senha -->
-      <div class="modal fade" id="EsqueciSenhaModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
+    <div class="modal fade" id="EsqueciSenhaModal" tabindex="-1" role="dialog" aria-labelledby="formModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header" style="background-color: #b56b35;">
@@ -373,7 +362,7 @@
                                 </span>
                             </div>
                         </div>
-                       
+
                         <div class="row">
                             <div class="offset-2 col-8 text-right">
                                 <div class="btn btn-xl btn-primary form-control" style="padding: 4px;">Enviar</div>

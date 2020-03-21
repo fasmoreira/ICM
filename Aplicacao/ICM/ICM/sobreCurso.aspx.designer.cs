@@ -10,6 +10,6 @@
 namespace ICM {
     
     
-    public partial class AreaEstudante {
+    public partial class sobreCurso {
     }
 }

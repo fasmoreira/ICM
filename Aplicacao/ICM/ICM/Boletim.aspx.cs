@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace ICM
 {
-    public partial class AreaEstudante : System.Web.UI.Page
+    public partial class Boletim : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

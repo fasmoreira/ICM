@@ -1,25 +1,34 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SiteMaster.Master" AutoEventWireup="true" CodeBehind="areaEstudante.aspx.cs" Inherits="ICM.areaEstudante" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/SiteMaster.Master" AutoEventWireup="true" CodeBehind="AreaEstudante.aspx.cs" Inherits="ICM.AreaEstudante" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="Conteudo" runat="server">
-    <br />
-    <br />
-    <br />
-    <br />
-    <div class="container">
-        <div class="col-md-12">
-            <div class="row">
-                <div class="col-lg-7 pr-lg-5 mb-5 mb-lg-0">
-                    <h2 class="font-weight-bold mb-4">Hello, we are Porto</h2>
-                    <p class="text-color-dark text-6 line-height-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit phasellus blandit massa enim.</p>
-                    <p class="line-height-9 text-4 pr-lg-5 mr-lg-5 mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim. Nullam id varius nunc. Vivamus bibendum magna ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa enim.</p>
-                    <a href="#" class="learn-more text-primary font-weight-semibold text-2">VIEW MORE <i class="fas fa-chevron-right text-3 ml-2"></i></a>
+    <!-- Versão Mobile -->
+    <section id="mobile" class=" d-block d-sm-block d-md-none py-section section-concept section-no-border section-dark section-angled section-angled-reverse pt-5 m-0" id="section-concept">
+	<div class="col-md-6">
+                    <p>teste</p>
                 </div>
+    </section>
+    <!-- Versão Mobile -->
 
-            </div>
+    <!-- Versão DeskTop -->
+    <section id="desktop" class="d-none d-sm-none d-md-block py-section section-concept section-no-border  section-angled section-angled-reverse pt-5 m-0" id="section-concept">
+      
+        <div class="container">
+            <div class="row" style="margin-top:11%;">
+                <div class="col-md-6">
+              <h2 class="font-weight-bold text-10 line-height-2 appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="500"><span class="text-5"> Bem-vindo ao portal do Aluno</span></h2>
+					<h4 class="text-6 line-height-6 font-weight-normal appear-animation" data-appear-animation="fadeInRightShorter" data-appear-animation-delay="800"><span class="opacity-6">Felippe Moreira, fique por dentro de tudo que acontece, em sua grade escolar e as Aulas EAD.</span></h4>
+                </div>
+				<div class="col-md-6">
+					<div class="row">
+								
+
+				</div>
         </div>
-    </div>
+    </section>
+
+    <!-- Versão DeskTop -->
 
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="footerJS" runat="server">
@@ -29,8 +38,6 @@
 
         $('#menuLogado').removeClass('d-none');
         $('#menuDeslogado').addClass('d-none');
-
-        $('#mudaNome').html('<a href="#" data-toggle="modal" data-target="#formModal"id="mudaNome" class="text-light pr-0">Olá Felippe Augusto<i class="fas fa-pencil-alt"></i> Sair</a>');
 
     </script>
 </asp:Content>

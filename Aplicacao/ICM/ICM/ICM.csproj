@@ -74,7 +74,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="areaEstudante.aspx" />
+    <Content Include="AreaEstudante.aspx" />
+    <Content Include="AULAEAD.aspx" />
+    <Content Include="Aulas.aspx" />
+    <Content Include="Boletim.aspx" />
     <Content Include="css\custom.css" />
     <Content Include="css\demos\demo-app-landing.css" />
     <Content Include="css\demos\demo-architecture-interior.css" />
@@ -159,6 +162,8 @@
     <Content Include="css\theme-elements.css" />
     <Content Include="css\theme-shop.css" />
     <Content Include="css\theme.css" />
+    <Content Include="Formacao.aspx" />
+    <Content Include="GradeCurricular.aspx" />
     <Content Include="img\admin-banner.png" />
     <Content Include="img\apple-touch-icon.png" />
     <Content Include="img\arrows-dark.png" />
@@ -611,6 +616,7 @@
     <Content Include="img\blog\wide\blog-70.jpg" />
     <Content Include="img\blog\wide\blog-8.jpg" />
     <Content Include="img\blog\wide\blog-9.jpg" />
+    <Content Include="img\Carttao.png" />
     <Content Include="img\clients\client-1.jpg" />
     <Content Include="img\clients\client-2.jpg" />
     <Content Include="img\clients\client-3.jpg" />
@@ -2484,6 +2490,7 @@
     <Content Include="js\views\view.contact.js" />
     <Content Include="js\views\view.home.js" />
     <Content Include="js\views\view.shop.js" />
+    <Content Include="sobreCurso.aspx" />
     <Content Include="vendor\360-degrees-product-viewer\css\reset.css" />
     <Content Include="vendor\360-degrees-product-viewer\css\style.css" />
     <Content Include="vendor\360-degrees-product-viewer\img\cd-arrows.svg" />
@@ -5370,12 +5377,47 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="areaEstudante.aspx.cs">
-      <DependentUpon>areaEstudante.aspx</DependentUpon>
+    <Compile Include="AreaEstudante.aspx.cs">
+      <DependentUpon>AreaEstudante.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="areaEstudante.aspx.designer.cs">
-      <DependentUpon>areaEstudante.aspx</DependentUpon>
+    <Compile Include="AreaEstudante.aspx.designer.cs">
+      <DependentUpon>AreaEstudante.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AULAEAD.aspx.cs">
+      <DependentUpon>AULAEAD.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AULAEAD.aspx.designer.cs">
+      <DependentUpon>AULAEAD.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Aulas.aspx.cs">
+      <DependentUpon>Aulas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Aulas.aspx.designer.cs">
+      <DependentUpon>Aulas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Boletim.aspx.cs">
+      <DependentUpon>Boletim.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Boletim.aspx.designer.cs">
+      <DependentUpon>Boletim.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Formacao.aspx.cs">
+      <DependentUpon>Formacao.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Formacao.aspx.designer.cs">
+      <DependentUpon>Formacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GradeCurricular.aspx.cs">
+      <DependentUpon>GradeCurricular.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GradeCurricular.aspx.designer.cs">
+      <DependentUpon>GradeCurricular.aspx</DependentUpon>
     </Compile>
     <Compile Include="Index.aspx.cs">
       <DependentUpon>Index.aspx</DependentUpon>
@@ -5391,6 +5433,13 @@
     </Compile>
     <Compile Include="SiteMaster.Master.designer.cs">
       <DependentUpon>SiteMaster.Master</DependentUpon>
+    </Compile>
+    <Compile Include="sobreCurso.aspx.cs">
+      <DependentUpon>sobreCurso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="sobreCurso.aspx.designer.cs">
+      <DependentUpon>sobreCurso.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
